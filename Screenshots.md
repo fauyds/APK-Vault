@@ -11,7 +11,7 @@ Visual tour of **APK Vault** interfaces, theme compliance, and package managemen
 
 <br/>
 
-<img src="screenshots/dashboard.png" width="80%" alt="Categories Dashboard" />
+<img src="screenshots/dashboard.png" width="320" alt="Categories Dashboard" />
 
 ---
 
@@ -20,7 +20,7 @@ Visual tour of **APK Vault** interfaces, theme compliance, and package managemen
 
 <br/>
 
-<img src="screenshots/icon_picker.png" width="80%" alt="Material Icon Picker" />
+<img src="screenshots/icon_picker.png" width="320" alt="Material Icon Picker" />
 
 ---
 
@@ -29,7 +29,7 @@ Visual tour of **APK Vault** interfaces, theme compliance, and package managemen
 
 <br/>
 
-<img src="screenshots/apk_details.png" width="80%" alt="APK Details & Actions" />
+<img src="screenshots/apk_details.png" width="320" alt="APK Details & Actions" />
 
 <br/>
 
