@@ -52,7 +52,7 @@ Downloading and archiving Android apps outside app stores quickly clutters stora
 
 * 📥 **Install & Reinstall:** Launch direct installations or force clean reinstalls of any package.
 * 🔄 **Update Apps:** Detect and update already installed applications with newer APK builds.
-* 🔍 **Inspect APK Manifest & Info:** Read `AndroidManifest.xml` metadata on the fly (package name, permissions, min/target SDK, version codes, and app certificates) without unpacking or modifying the archive.
+* 🔍 **Inspect APK Manifest & Info:** Read `AndroidManifest.xml` metadata on the fly (package name and version codes) without unpacking or modifying the archive.
 * 🗑 **Delete APKs:** Permanently purge obsolete installer binaries directly from device storage without needing external file explorers.
 * 🏷 **Quick Reassign:** Move any installer to a different category in one tap.
 
