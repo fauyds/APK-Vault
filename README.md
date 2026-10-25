@@ -12,6 +12,7 @@ Designed fully in line with official **Google Material Design guidelines**.
 
 <p align="center">
   <a href="#-what-is-apk-vault">Overview</a> •
+  <a href="Screenshots.md">Screenshots</a> •
   <a href="#-key-features">Features</a> •
   <a href="#-what-you-can-do-with-apks">Actions</a> •
   <a href="#-tech-stack">Tech Stack</a> •
