@@ -29,6 +29,10 @@ jobs:
         chmod +x gradlew
 
     - name: Build Release APK
+      env:
+        STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
       run: ./gradlew assembleRelease --no-daemon -Djava.awt.headless=true -x test
 
     - name: Upload Release APK
@@ -36,4 +40,3 @@ jobs:
       with:
         name: app-release
         path: app/build/outputs/apk/release/*.apk
-        
