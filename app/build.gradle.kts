@@ -22,21 +22,20 @@ android {
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
 
-  signingConfigs {
-    create("release") {
-      val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${rootDir}/app/apkvault-fauyds.jks"
-      storeFile = file(keystorePath)
-      storePassword = System.getenv("STORE_PASSWORD")
-      keyAlias = System.getenv("KEY_ALIAS")
-      keyPassword = System.getenv("KEY_PASSWORD")
+      signingConfigs {
+        create("release") {
+            storeFile = file("${rootDir}/app/apkvault-fauyds.jks")
+            storePassword = "WXQLTAZXC1"
+            keyAlias = "apkvault-fauyds"
+            keyPassword = "WXQLTAZXC1"
+        }
+        create("debugConfig") {
+            storeFile = file("${rootDir}/app/apkvault-fauyds.jks")
+            storePassword = "WXQLTAZXC1"
+            keyAlias = "apkvault-fauyds"
+            keyPassword = "WXQLTAZXC1"
+        }
     }
-    create("debugConfig") {
-      storeFile = file("${rootDir}/debug.keystore")
-      storePassword = "WXQLTAZXC1"
-      keyAlias = "apkvault-fauyds"
-      keyPassword = "WXQLTAZXC1"
-    }
-  }
 
   buildTypes {
     release {
