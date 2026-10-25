@@ -33,7 +33,7 @@ android {
     create("debugConfig") {
       storeFile = file("${rootDir}/debug.keystore")
       storePassword = "WXQLTAZXC1"
-      keyAlias = "fauyds-alias"
+      keyAlias = "apkvault-fauyds"
       keyPassword = "WXQLTAZXC1"
     }
   }
